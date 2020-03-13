@@ -13,6 +13,8 @@ web:
   ports:
    # uncomment it and rerun ./compose.sh to make gitlab listen to 80.
    # This can leverage letsencrypt automation tools to apply DV certificates.
+   # More details about https setup, see: 
+   #  https://docs.gitlab.com/omnibus/settings/nginx.html#enable-https
    #- 80:80  
    - 443:443
    - '8022:22'
